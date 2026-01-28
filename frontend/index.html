@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BaseEcho | Voice Notes on Base</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.4/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎙️ BaseEcho</h1>
+    <p>Your voice, forever on Base.</p>
+
+    <input type="file" id="audioFile" accept="audio/*">
+    <input type="text" id="desc" placeholder="Say something...">
+    <button id="uploadBtn">Upload Echo</button>
+
+    <h2>🔊 Recent Echoes</h2>
+    <div id="echoList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
